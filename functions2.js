@@ -5,9 +5,8 @@ console.log(isOdd(7));
 console.log(isOdd(10));
 // task2
 function oddsSmallerThan(n) {
-  if (n <= 1) {
-    return 0;
-  }
+  if (n <= 1) return 0;
+
   return Math.floor((n - 1) / 2);
 }
 console.log(oddsSmallerThan(7));
